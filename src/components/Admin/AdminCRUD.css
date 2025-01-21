@@ -1,0 +1,148 @@
+/* AdminCRUD.css */
+.add-user-container,
+.delete-user-container,
+.update-user-container,
+.get-users-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0; /* Remove top margin */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-container input,
+.form-container select,
+.form-container button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px; /* Adjust space between buttons */
+}
+
+.back-button {
+  background-color: #f0ad4e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.back-button:hover {
+  background-color: #ec971f;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.message {
+  margin-top: 20px;
+  color: red;
+  text-align: center;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.user-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.user-table button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+
+.user-table button:hover {
+  background-color: #0056b3;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.user-type-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
+
+.user-type-button:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+.footer p{
+    margin:0;
+    letter-spacing: 0.5px;
+}
